@@ -1,3 +1,17 @@
+08-06-2023
+==========
+1. Ініціалізацію DB (config) та інше краще робити окремо
+2. Концепція тестування end to end:
+        loginAs: ...
+        apiUrl: ... /user/register
+        apiArgs: ... email, password
+        onQuery: { запит до БД get user }
+        expectedApi: ... api res
+        expectedQuery ... user data
+        onMessage: ... очікування евенту іншим користувачем
+3. Цікава задача: відправка меседжів по апі не більше 50 в хвилину
+   Рішення по інтервалу, або створити стрім з контролем "count per interval"
+
 20-04-2023
 ==========
 1. json schema. Конвертація схеми в SQL синтаксис міграції та в типи TS.
