@@ -28,6 +28,8 @@ NodeJS Applications
 - https://public.api.openprocurement.org/api/2.3/tenders (bus.openprocurement.getTender(id))
 - any currency rates
 - OpenDataBot
+- GPT-4 API
+- Elastic or Postgres search
 
 #### Dependencies:
 - pg
