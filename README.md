@@ -20,7 +20,7 @@ NodeJS Applications
 - Cache like as memory Map or redis
 
 #### Applications:
-- quiz (learn english words, use any open api for words and translate)
+- quiz (learn english words, use any open api for words and translate, telegram chanel)
 - messenger (course task)
 - openprocurement.api’s parser and client
 
